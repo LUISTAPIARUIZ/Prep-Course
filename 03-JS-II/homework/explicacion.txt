@@ -1,0 +1,33 @@
+Explicacion del bucle for 
+El buble for como su nombre lo dice es pedazo de codigo que se repite muchas veces  , la cantidad  de veces que se repetira
+esta determinado por un argumento que miestras sea  verdadero seguira repitiendose , una vez que el argumento deje de ser verdadero
+el bucle se detentendra :Ejemplo
+ let i = 0 :  valor inicial
+ i<10  :si se cumple seguira ejecuntado el codigo  que esta entre las llaves de
+ i++ :  aumenta el valor en cada repeticion hasta que el valor deje  de cumplir la condicion de (i<10)
+for (let i = 0;      i<10;                   i++){
+    el codigo que desces
+}
+
+Operadores Logicos( || ,&& !)
+
+|| :es llamado "OR" o "O",este operado logico solo nescesita que uno de los elementos comparados devuelvan un valor verdadero,
+para  ejecutar el codigo que desceemos :Ejemplo
+10<2:false;
+10===10:true(verdadero)
+if(10<2 || 10===10){
+    este codigo  se ejecutara ya que una condicion es verdadera
+}
+
+&&:el llamado operado "AND"o "Y" , este  operador nescesita que todas las condiciones devuelvan un valor verdadero ,
+de lo contraio el codigo que queramos ejecutar no se llevara  a cabo:Ejemplo
+10===7:false(falso)
+"hola"==="hola":true(verdadero)
+if(10===7 && "hola"==="hola"){
+    este codigo no se ejecutara por que una de las condiciones es falsa (10===7)
+}
+
+!:es llamado operado not , lo que hace este operado es invertir un valor buleano :Ejemplo
+10===10:true(verdadero);
+!(10===10):False(falso);
+el proposito de este operador es invertir todo valor boleano
