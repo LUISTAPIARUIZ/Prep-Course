@@ -61,7 +61,9 @@ function Usuario(nombre, github) {
     this.github = github;
 }
 
-
+Usuario.prototype.introduccion = function(){
+    return 'Mi nombre es ' + this.nombre + ', mi usuario de Github es ' + this.github + '.';
+}
 
 let juan = new Usuario('Juan', 'juan.perez');
 let antonio = new Usuario('Antonio', 'atralice');
